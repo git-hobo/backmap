@@ -75,6 +75,10 @@ Options: [default]
 	-h or -help	Print this help and exit
 	-version	Print version number and exit
 ```
+## Docker
+```
+docker pull git-hobo/backmap:latest
+```
 ## Apptainer / Singularity
 ```
 apptainer pull backmap.sif docker://git-hobo/backmap:latest
