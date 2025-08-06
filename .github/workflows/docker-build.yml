@@ -11,7 +11,7 @@ on:
       - master
 
 env:
-  IMAGE_NAME: git-hobo/backmap
+  IMAGE_NAME: paulcrenis/backmap
 
 jobs:
   build:
