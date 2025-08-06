@@ -77,11 +77,11 @@ Options: [default]
 ```
 ## Docker
 ```
-docker pull git-hobo/backmap:latest
+docker pull paulcrenis/backmap:latest
 ```
 ## Apptainer / Singularity
 ```
-apptainer pull backmap.sif docker://git-hobo/backmap:latest
+apptainer pull backmap.sif docker://paulcrenis/backmap:latest
 apptainer exec backmap.sif backmap.pl [options]
 ```
 ## Citation
