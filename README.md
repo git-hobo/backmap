@@ -75,7 +75,11 @@ Options: [default]
 	-h or -help	Print this help and exit
 	-version	Print version number and exit
 ```
-
+## Apptainer / Singularity
+```
+apptainer pull backmap.sif docker://git-hobo/backmap:latest
+apptainer exec backmap.sif backmap.pl [options]
+```
 ## Citation
 Pfenninger M, Schönenbeck P & Schell T (2021). ModEst: Accurate estimation of genome size from next generation sequencing data. _Molecular ecology resources_, 00, 1–11. <https://doi.org/10.1111/1755-0998.13570>  
 
